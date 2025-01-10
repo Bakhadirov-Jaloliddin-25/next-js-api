@@ -11,3 +11,13 @@ export interface IBlog {
   date: Date;
   category: string;
 }
+
+export interface IProduct {
+  id: number;
+  title: string;
+  description: string;
+  category: string;
+  price: string;
+  rating: string;
+  thumbnail: string;
+}
